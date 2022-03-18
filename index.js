@@ -40,5 +40,5 @@ function camelToUpperCase(str) {
     return str.replace(/_[a-z]/g, s => s[1].toUpperCase())
 }
 
-console.log(objectToUpperCase(obj));
+
 console.log(objectToUpperCase(obj.j_vas.s_v_g));
