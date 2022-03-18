@@ -7,9 +7,7 @@ const obj = {
     }
 }
 
-/**
- * 将对象或者数组中带有下划线key的转化为驼峰类型
- */
+
 
 function objectToUpperCase(obj) {
     const isObject = isOriginObject(obj);
@@ -42,3 +40,4 @@ function camelToUpperCase(str) {
 
 
 console.log(objectToUpperCase(obj.j_vas.s_v_g));
+
